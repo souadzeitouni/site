@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+}
+
+.first-part {
+  background-image: url("./image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#logo {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.icon-menu {
+  color: rgb(255, 255, 255);
+  display: none;
+}
+
+ul {
+  position: absolute;
+  top: 50px;
+  right: 170px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.second-part {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 700px;
+  height: 170px;
+  position: relative;
+  bottom: 50px;
+}
+
+#logo-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -25px;
+  left: 350px;
+}
+
+#seection-header {
+  text-transform: capitalize;
+  white-space: nowrap;
+  padding: 30px 190px;
+}
+
+#section-para {
+  color: grey;
+  margin-top: -20px;
+  padding-left: 150px;
+  white-space: nowrap;
+}
+
+#first-button {
+  color: white;
+  background-color: rgb(49, 196, 152);
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin: 20px 40px;
+}
+
+.bookmark-button {
+  color: rgb(88, 88, 88);
+  background-color: rgb(218, 218, 218);
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+.custom-logo {
+  color: rgb(160, 160, 160);
+  background-color: black;
+  border-radius: 50%;
+  padding: 15px 15px;
+  position: relative;
+  left: 260px;
+  bottom: -3px;
+  z-index: 1;
+}
+
+.third-part {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 700px;
+  padding: 30px 0;
+  margin-top: -30px;
+}
+
+tr {
+  display: inline-block;
+}
+
+tr .left-line {
+  border-left: 1px solid rgb(187, 187, 187);
+}
+
+th {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: start;
+  padding: 0 30px;
+}
+
+td {
+  display: block;
+  color: rgb(66, 66, 66);
+  padding: 5px 30px;
+}
+
+input {
+  margin: 20px 20px;
+  margin-bottom: -30px;
+}
+
+input[type="range"] {
+  background-color: rgb(202, 202, 202);
+  width: 600px;
+  height: 10px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background: rgb(49, 196, 152);
+  width: 390px;
+  height: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-appearance: none;
+}
+
+.forth-part {
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px 50px;
+}
+
+#card-title {
+  padding-bottom: 15px;
+}
+
+#card-para {
+  color: rgb(121, 121, 121);
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.card-one {
+  border: 1px solid grey;
+  height: 150px;
+  margin: 20px auto;
+  padding: 20px 20px;
+  position: relative;
+}
+
+h3 {
+  color: rgb(49, 196, 152);
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+#card-paragraph {
+  color: rgb(121, 121, 121);
+  padding: 10px 0;
+}
+
+#card-button {
+  color: white;
+  background-color: rgb(49, 196, 152);
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+}
+
+.card-two {
+  border: 1px solid grey;
+  height: 150px;
+  margin: 20px auto;
+  padding: 20px 20px;
+  position: relative;
+}
+
+#card-paragraph-two {
+  color: rgb(121, 121, 121);
+  padding: 10px 0;
+}
+
+#card-button-two {
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 196, 152);
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+}
+
+.card-three {
+  height: 150px;
+  border: 1px solid grey;
+  margin: 20px auto;
+  padding: 20px 20px;
+  position: relative;
+  opacity: 0.5;
+}
+
+#card-paragraph-three {
+  color: rgb(121, 121, 121);
+  padding: 10px 0;
+}
+
+#card-button-three {
+  color: white;
+  background-color: rgb(126, 126, 126);
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+}
+
+#card-num {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+#grey-color {
+  color: rgb(121, 121, 121);
+}
+
+@media only screen and (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .first-part {
+    background-image: url(./image-hero-mobile.jpg);
+    background-size: 400px;
+    position: relative;
+  }
+
+  #logo {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+
+  .icon-menu {
+    display: block;
+    position: absolute;
+    left: 130px;
+  }
+
+  li {
+    display: none;
+  }
+
+  .second-part {
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 160px;
+    right: -9px;
+  }
+
+  #logo-img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -25px;
+    left: 128px;
+  }
+
+  #seection-header {
+    text-transform: capitalize;
+    padding: 15px 30px;
+    margin-top: -50px;
+    font-size: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+  }
+
+  #section-para {
+    width: 100%;
+    white-space: pre-line;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  #first-button {
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    position: absolute;
+    bottom: -6px;
+    left: -16px;
+  }
+
+  .custom-logo {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 14px;
+    left: 210px;
+  }
+
+  .bookmark-button {
+    display: none;
+  }
+
+  .third-part {
+    width: 300px;
+    margin: -130px 45px;
+  }
+
+  tr .left-line {
+    border-left: none;
+  }
+
+  tr .bottom-line {
+    border-bottom: 1px solid grey;
+    padding: 10px 30px;
+    
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 50px;
+  }
+
+  input[type="range"] {
+    width: 250px;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 200px;
+  }
+
+  .forth-part {
+    width: 200px;
+    margin: 165px 45px;
+  }
+
+  #card-title {
+    margin: -8px -26px;
+  }
+
+  #card-para {
+    margin: -8px -26px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .card-one {
+    height: 266px;
+    margin: 20px -30px;
+    padding: 20px 8px;
+    position: relative;
+  }
+
+  h3 {
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+  }
+
+  #card-paragraph {
+    padding: 40px 0;
+  }
+
+  #card-num {
+    font-size: 20px;
+    font-weight: 400;
+    margin: -25px 2px;
+  }
+
+  #card-button {
+    padding: 12px 30px;
+    position: absolute;
+    left: 7px;
+    bottom: 25px;
+  }
+
+  .card-two {
+    height: 266px;
+    margin: 20px -30px;
+    padding: 20px 8px;
+    position: relative;
+  }
+
+  #card-paragraph-two {
+    padding: 40px 0;
+  }
+
+  #card-button-two {
+    padding: 12px 30px;
+    position: absolute;
+    left: 7px;
+    bottom: 25px;
+  }
+
+  .card-three {
+    height: 266px;
+    margin: 20px -30px;
+    padding: 20px 8px;
+    position: relative;
+    opacity: 0.5;
+  }
+
+  #card-paragraph-three {
+    padding: 40px 0;
+  }
+
+  #card-button-three {
+    padding: 12px 30px;
+    position: absolute;
+    left: 7px;
+    bottom: 25px;
+  }
+}
